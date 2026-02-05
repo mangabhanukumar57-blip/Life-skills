@@ -1,22 +1,59 @@
 # Technical Paper
 
 ## Title
-<Your selected topic>
+Spring MVC and General MVC Architecture
 
 ## Introduction
-- What the topic is
-- Why it matters
+- MVC is a design pattern for building applications
+- It separates logic, UI, and data
+- Spring MVC is a Java framework that follows MVC
 
-## Problem Statement
-- What problem it solves
+## MVC Architecture
+- Model
+  - Holds data
+  - Contains business logic
+- View
+  - Displays data to the user
+  - Usually HTML, JSP, or templates
+- Controller
+  - Handles user requests
+  - Connects Model and View
 
-## Key Concepts
-- Main idea one
-- Main idea two
-- Main idea three
+## Why MVC is Used
+- Separation of concerns
+- Easier to maintain code
+- Better readability
+- Supports teamwork
+
+## Spring MVC Overview
+- Part of Spring Framework
+- Used to build web applications
+- Based on MVC pattern
+
+## Core Components of Spring MVC
+- DispatcherServlet
+  - Central controller
+  - Receives all requests
+- Controller
+  - Handles request logic
+- Model
+  - Sends data to view
+- View Resolver
+  - Maps view names to actual views
+
+## Request Flow in Spring MVC
+- Client sends request
+- DispatcherServlet receives request
+- Controller processes request
+- Model data is prepared
+- View is rendered to client
 
 ## Use Cases
-- Where it is used in real life
+- Web applications
+- REST APIs
+- Enterprise applications
 
 ## Conclusion
-- Summary in 2–3 lines
+- MVC improves structure and clarity
+- Spring MVC simplifies web development
+- It is widely used in Java projects
